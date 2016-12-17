@@ -29,119 +29,119 @@
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="39"/>
                                         <state key="normal" title="Перелік запитань"/>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="hIl-i3-i7A"/>
+                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="hIl-i3-i7A"/>
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="s09-bM-Ouz">
                                         <rect key="frame" x="0.0" y="49" width="288" height="445"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8Th-tf-aZu">
-                                                <rect key="frame" x="0.0" y="0.0" width="288" height="51"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="288" height="50.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ove-hu-rF3">
-                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="51"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="50.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="1"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="ZUy-wD-EUd"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="ZUy-wD-EUd"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2y-hS-KNa">
-                                                        <rect key="frame" x="72" y="0.0" width="72" height="51"/>
+                                                        <rect key="frame" x="72" y="0.0" width="72" height="50.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="2"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="IBd-7b-qda"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="IBd-7b-qda"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wF3-ij-fNc">
-                                                        <rect key="frame" x="144" y="0.0" width="72" height="51"/>
+                                                        <rect key="frame" x="144" y="0.0" width="72" height="50.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="3"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="bXc-in-nWQ"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="bXc-in-nWQ"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0f-oX-SJl">
-                                                        <rect key="frame" x="216" y="0.0" width="72" height="51"/>
+                                                        <rect key="frame" x="216" y="0.0" width="72" height="50.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="4"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="QYt-Eo-CWN"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="QYt-Eo-CWN"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Ve5-fl-qTY">
-                                                <rect key="frame" x="0.0" y="66" width="288" height="50"/>
+                                                <rect key="frame" x="0.0" y="65.5" width="288" height="51"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5I0-cI-LYN">
-                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="50"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="51"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="5"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="msA-pN-CU6"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="msA-pN-CU6"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vqx-Xk-cDd">
-                                                        <rect key="frame" x="72" y="0.0" width="72" height="50"/>
+                                                        <rect key="frame" x="72" y="0.0" width="72" height="51"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="6"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="yjC-eC-Bw8"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="yjC-eC-Bw8"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVW-Cx-8yb">
-                                                        <rect key="frame" x="144" y="0.0" width="72" height="50"/>
+                                                        <rect key="frame" x="144" y="0.0" width="72" height="51"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="7"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="Ydc-Y8-L4y"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="Ydc-Y8-L4y"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgT-VN-FWc">
-                                                        <rect key="frame" x="216" y="0.0" width="72" height="50"/>
+                                                        <rect key="frame" x="216" y="0.0" width="72" height="51"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="8"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="B1h-TT-cG3"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="B1h-TT-cG3"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Pdm-vt-vpN">
-                                                <rect key="frame" x="0.0" y="131" width="288" height="51"/>
+                                                <rect key="frame" x="0.0" y="131.5" width="288" height="50.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBf-GK-325">
-                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="51"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="50.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="9"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="mCc-nW-jz7"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="mCc-nW-jz7"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADY-xe-k6n">
-                                                        <rect key="frame" x="72" y="0.0" width="72" height="51"/>
+                                                        <rect key="frame" x="72" y="0.0" width="72" height="50.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="10"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="3kz-kY-qbk"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="3kz-kY-qbk"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTR-3Q-tcg">
-                                                        <rect key="frame" x="144" y="0.0" width="72" height="51"/>
+                                                        <rect key="frame" x="144" y="0.0" width="72" height="50.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="11"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="HbI-SB-TpU"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="HbI-SB-TpU"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TkK-4w-qZx">
-                                                        <rect key="frame" x="216" y="0.0" width="72" height="51"/>
+                                                        <rect key="frame" x="216" y="0.0" width="72" height="50.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="12"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="9jq-u9-sVq"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="9jq-u9-sVq"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -154,7 +154,7 @@
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="13"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="6zU-Nc-NHi"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="6zU-Nc-NHi"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fx-Hb-UFy">
@@ -162,7 +162,7 @@
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="14"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="YVY-I1-cjr"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="YVY-I1-cjr"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cnX-fz-Cxx">
@@ -170,7 +170,7 @@
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="15"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="Rhz-Ab-4qH"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="Rhz-Ab-4qH"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0i-0x-M4p">
@@ -178,102 +178,102 @@
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="16"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="z2n-tc-aGE"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="z2n-tc-aGE"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="L6L-bR-qtW">
-                                                <rect key="frame" x="0.0" y="263" width="288" height="51"/>
+                                                <rect key="frame" x="0.0" y="263" width="288" height="50.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Wo-JV-oDi">
-                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="51"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="50.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="17"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="wKg-Nb-zJL"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="wKg-Nb-zJL"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwQ-db-HYg">
-                                                        <rect key="frame" x="72" y="0.0" width="72" height="51"/>
+                                                        <rect key="frame" x="72" y="0.0" width="72" height="50.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="18"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="ytE-nf-OPe"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="ytE-nf-OPe"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Adc-pX-d2y">
-                                                        <rect key="frame" x="144" y="0.0" width="72" height="51"/>
+                                                        <rect key="frame" x="144" y="0.0" width="72" height="50.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="19"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="tkf-ZN-DAq"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="tkf-ZN-DAq"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fc-pv-KZS">
-                                                        <rect key="frame" x="216" y="0.0" width="72" height="51"/>
+                                                        <rect key="frame" x="216" y="0.0" width="72" height="50.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="20"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="bp6-8B-ZO8"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="bp6-8B-ZO8"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hfx-3Q-Bih">
-                                                <rect key="frame" x="0.0" y="329" width="288" height="50"/>
+                                                <rect key="frame" x="0.0" y="328.5" width="288" height="51"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VgN-Q3-hYr">
-                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="50"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="72" height="51"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="21"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="Rnr-Yc-YFq"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="Rnr-Yc-YFq"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O5f-fm-H3O">
-                                                        <rect key="frame" x="72" y="0.0" width="72" height="50"/>
+                                                        <rect key="frame" x="72" y="0.0" width="72" height="51"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="22"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="nIX-SA-T2r"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="nIX-SA-T2r"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSV-W2-Qy1">
-                                                        <rect key="frame" x="144" y="0.0" width="72" height="50"/>
+                                                        <rect key="frame" x="144" y="0.0" width="72" height="51"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="23"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="X9C-2E-FbA"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="X9C-2E-FbA"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="649-g6-2pd">
-                                                        <rect key="frame" x="216" y="0.0" width="72" height="50"/>
+                                                        <rect key="frame" x="216" y="0.0" width="72" height="51"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="24"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="Ts3-9M-vmY"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="Ts3-9M-vmY"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ael-7D-JZT">
-                                                <rect key="frame" x="0.0" y="394" width="288" height="51"/>
+                                                <rect key="frame" x="0.0" y="394.5" width="288" height="50.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IcA-8o-BVd">
-                                                        <rect key="frame" x="0.0" y="0.0" width="144" height="51"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="144" height="50.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="25"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="CV7-GT-jY6"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="CV7-GT-jY6"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8W-Sy-s6l">
-                                                        <rect key="frame" x="144" y="0.0" width="144" height="51"/>
+                                                        <rect key="frame" x="144" y="0.0" width="144" height="50.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <state key="normal" title="26"/>
                                                         <connections>
-                                                            <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Show Image" id="NRv-yk-kFg"/>
+                                                            <segue destination="efn-rW-4LB" kind="showDetail" identifier="Show Image" id="NRv-yk-kFg"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -303,7 +303,7 @@
                 <splitViewController id="sn4-3R-fZw" sceneMemberID="viewController">
                     <connections>
                         <segue destination="Djz-J8-rBp" kind="relationship" relationship="masterViewController" id="qiu-DZ-eKo"/>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="detailViewController" id="ViA-uu-1te"/>
+                        <segue destination="efn-rW-4LB" kind="relationship" relationship="detailViewController" id="ViA-uu-1te"/>
                     </connections>
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7dL-PV-cmk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -334,18 +334,19 @@
                             <constraint firstItem="nBz-cc-jde" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="mDo-gS-7dx"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="hDy-Zi-E4D"/>
                     <connections>
                         <outlet property="scrollView" destination="nBz-cc-jde" id="uAD-gl-vzE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1513" y="1027"/>
+            <point key="canvasLocation" x="2508.75" y="1026.7605633802816"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lu0-bF-4Ac">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Djz-J8-rBp" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBarsOnTap="YES" hidesBarsWhenVerticallyCompact="YES" id="Djz-J8-rBp" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="FF1-Mu-MCz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -360,8 +361,27 @@
             </objects>
             <point key="canvasLocation" x="515.625" y="254.57746478873239"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ceq-lo-Syp">
+            <objects>
+                <navigationController wantsFullScreenLayout="YES" automaticallyAdjustsScrollViewInsets="NO" hidesBarsOnTap="YES" hidesBarsWhenVerticallyCompact="YES" id="efn-rW-4LB" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BNv-lK-S1T">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="pw9-Df-G0z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JhK-uj-ZHG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1511.25" y="1026.7605633802816"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="msA-pN-CU6"/>
+        <segue reference="ViA-uu-1te"/>
     </inferredMetricsTieBreakers>
 </document>

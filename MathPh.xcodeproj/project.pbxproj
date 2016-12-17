@@ -41,6 +41,7 @@
 		2213A1B11E05A7BC00284B7E /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2213A1AB1E05A7BC00284B7E /* 16.jpg */; };
 		2213A1B21E05A7BC00284B7E /* 17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2213A1AC1E05A7BC00284B7E /* 17.jpg */; };
 		2213A1B31E05A7BC00284B7E /* 18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2213A1AD1E05A7BC00284B7E /* 18.jpg */; };
+		2213A1B91E05BF1B00284B7E /* nastol.com.ua-155407.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2213A1B81E05BF1B00284B7E /* nastol.com.ua-155407.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		2213A1AB1E05A7BC00284B7E /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
 		2213A1AC1E05A7BC00284B7E /* 17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpg; sourceTree = "<group>"; };
 		2213A1AD1E05A7BC00284B7E /* 18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.jpg; sourceTree = "<group>"; };
+		2213A1B81E05BF1B00284B7E /* nastol.com.ua-155407.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nastol.com.ua-155407.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		220ADF2A1E040ACD001F87AC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2213A1B81E05BF1B00284B7E /* nastol.com.ua-155407.jpg */,
 				220ADF311E041B99001F87AC /* 1.jpg */,
 				220ADF321E041B99001F87AC /* 2.jpg */,
 				220ADF351E042388001F87AC /* 3.jpg */,
@@ -231,6 +234,7 @@
 				220ADF191E03F9C1001F87AC /* LaunchScreen.storyboard in Resources */,
 				2213A1B01E05A7BC00284B7E /* 15.jpg in Resources */,
 				2213A1A41E05A2D100284B7E /* 23.jpg in Resources */,
+				2213A1B91E05BF1B00284B7E /* nastol.com.ua-155407.jpg in Resources */,
 				2213A1A31E05A2D100284B7E /* 22.jpg in Resources */,
 				220ADF401E042388001F87AC /* 21.jpg in Resources */,
 				2213A19C1E05A2D100284B7E /* 8.jpg in Resources */,

@@ -14,7 +14,9 @@ class ImageViewController: UIViewController, UIScrollViewDelegate
     var imageURL: NSURL? {
         didSet {
             image = nil
-            fetchImage()
+            //if view.window != nil {
+                fetchImage()
+            //}
         }
     }
     
@@ -36,7 +38,10 @@ class ImageViewController: UIViewController, UIScrollViewDelegate
             scrollView.delegate = self
             scrollView.minimumZoomScale = 0.08
             scrollView.maximumZoomScale = 1.0
-            scrollView.setZoomScale(0.08, animated: true)
+            let scaledZoom = Double(scrollView.frame.size.width) / Double((image?.size.width ?? 640)!)
+            
+            scrollView.setZoomScale(CGFloat(scaledZoom), animated: true)
+            
         }
     }
     
@@ -50,6 +55,13 @@ class ImageViewController: UIViewController, UIScrollViewDelegate
             imageView.image = newValue
             imageView.sizeToFit()
             scrollView?.contentSize = imageView.frame.size
+        }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        if image != nil {
+            fetchImage()
         }
     }
     
