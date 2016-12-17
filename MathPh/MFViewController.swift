@@ -24,6 +24,9 @@ class MFViewController: UIViewController {
         }
     }
 
+    override func viewDidLoad() {
+        self.splitViewController?.preferredDisplayMode = UISplitViewControllerDisplayMode.primaryOverlay
+    }
 }
 
 

@@ -359,7 +359,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lj8-Ze-vbg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="515.625" y="254.57746478873239"/>
+            <point key="canvasLocation" x="566" y="255"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ceq-lo-Syp">
@@ -378,10 +378,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JhK-uj-ZHG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1511.25" y="1026.7605633802816"/>
+            <point key="canvasLocation" x="1513" y="1026"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ViA-uu-1te"/>
+        <segue reference="z2n-tc-aGE"/>
     </inferredMetricsTieBreakers>
 </document>

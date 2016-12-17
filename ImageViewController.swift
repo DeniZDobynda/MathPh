@@ -68,6 +68,7 @@ class ImageViewController: UIViewController, UIScrollViewDelegate
     override func viewDidLoad() {
         super.viewDidLoad()
         scrollView.addSubview(imageView)
+        // self.splitViewController?.preferredDisplayMode = UISplitViewControllerDisplayMode.allVisible
     }
     
 }
